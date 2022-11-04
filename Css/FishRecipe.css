@@ -1,0 +1,180 @@
+body{
+  background-image: url("../Images/silverware.jpg");
+  font-family: 'Segoe UI';
+  background-repeat: repeat;
+  text-align: center;
+  align-items: center;
+}
+.index-container{
+  justify-content: center;
+  /* margin: auto; */
+  max-width: 1024px;
+  margin: 40px auto;
+}
+
+.menue-container{
+  column-count: 3;
+  column-gap: 40px;
+  column-rule-style: solid;
+  column-rule-color: #a4a400;
+}
+.index-img{
+  border-radius: 50%;
+  float: center;
+  width: 17rem;
+  height: 10rem;
+  object-fit: cover;
+  margin: 6px auto auto auto;
+  align-items: center;
+}
+
+.index-h1{
+  width: 550px;
+}
+h1,h2,h3{
+  border: 2px solid #73ad21;
+  background-color: #f0f0f0;
+  color:#a4a400;
+  margin: 22px auto;
+  padding: 17px;
+  text-align: center;
+}
+
+.div-body{
+  max-width: 1024px;
+  margin: 40px auto;
+}
+
+h1{
+  font-size: x-large;
+  width: 37rem;
+  padding:20px ;
+  border-radius: 20px;
+}
+h2{
+  width: 20rem;
+  height: 50%;
+  font-size: large;
+  border-radius: 30px;
+}
+h3{
+  width: 23rem;
+  height: 50%;
+  border-radius: 30px;
+  font-size: large;
+}
+
+.sub-descritopn{
+  text-align: center;
+  margin-top: 2vw;
+}
+.fish-finger-pic {
+  border-radius: 50%;
+  float: center;
+  width: 18rem;
+  height: 9rem;
+  object-fit: cover;
+  margin-top: 6px;
+}
+
+ul{
+  list-style-image: url('../Images/fish_icon_24.png');
+  text-align: left;
+}
+.ingredients-container, .method-container {
+    column-count:3;
+    column-rule: 2px solid #a4a400;
+    column-gap: 40px;
+    text-align: left;
+}
+.img-div{
+  justify-content: center;
+  display: flex;
+}
+
+.EnterComment-form{
+  margin: 0 auto;
+}
+.userComments-section, .personalInfo-form{
+  display:inline-block;
+  width: 27rem;
+  margin: auto;
+  padding: 12px;
+  text-align: left;
+}
+.radio-div{
+  text-align: center;
+}
+.in-form{
+  display:inline;
+  width: 90%;
+}
+
+.comment-1, .comment-2{
+  background-color: #ffffa8;
+}
+
+.footer-link{
+  color: #a4a400;
+}
+
+
+
+@media all and (max-width:900px){
+  .div-body{
+    max-width: 900px;
+    margin: 40px auto;
+  }
+  /* .block{
+    width: 40%;
+  } */
+  .index-h1{
+    width: 460px;
+  }
+  .ingredients-container, .method-container , .menue-container{
+    column-count:2;
+  }
+  .userComments-section, .personalInfo-form{
+    width: 27rem;
+  }
+}
+
+@media all and (max-width:580px) {
+  body{
+    width: 455px;
+    margin: 40px auto;
+    align-items: center;
+    text-align: center;
+  }
+  h1{
+    width:25rem ;
+    padding:23px ;
+    font-size: x-large;
+  }
+  h2{
+    width: 18rem;
+    height: 50%;
+    font-size: large;
+  }
+  h3{
+    width: 20rem;
+    height: 50%;
+    font-size: large;
+  }
+  .div-body{
+    max-width: 570px;
+    margin: 40px auto;
+  }
+  /* .block{
+    width: 20%;
+  } */
+  .index-h1{
+    width: 250px;
+  }
+  .ingredients-container, .method-container , .menue-container{
+    column-count:1;
+  }
+  .userComments-section, .personalInfo-form{
+    width: 27rem;
+  }
+}
